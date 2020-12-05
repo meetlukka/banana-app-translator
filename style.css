@@ -7,33 +7,26 @@ html, body{
     margin:0;
     padding: 0;
     font-family: 'Bilbo', cursive;
+    /* position: fixed;
+    top:0;
+    left:0;
+    right: 0; 
+    bottom: 0;*/ 
 }
-.nav-bar{
+.nav-bar-section{
     width: 100%;
-    height: 7rem; 
+    height: 8rem; 
     background-color:black;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    
+    text-align: center; 
 }
-.nav-bar-image{
+/* .nav-bar-image{
     margin-left: 60rem;
-}
-.nav-bar > .nav-bar-text{
-    float: left;
-    margin-top: 2.5rem;
-    /* margin-left: 40%; */
-    font-size: 4rem;
-   
-    color: yellow;
-    
-    
-}
-.nav-bar-text{
-    text-align: center;
-    position: absolute;
+} */
 
+.nav-bar-text{
+    padding: 2.5rem 1rem;
+    color: yellow;
+    font-size: 3rem;
 }
 .main-content{
     margin: auto;
@@ -43,26 +36,25 @@ html, body{
     text-align: center;
 }
 textarea{
-   width: 18rem;
-   min-height: 5rem;
+   width: 20rem;
+   min-height: 1rem;
    resize: none;
    border: 0.01rem solid black;
    font-family: 'IM Fell English', serif;
    font-size: 1.5rem;
 }
 
-.nav-bar > .minion-image{
+/* .nav-bar > .minion-image{
     height: 40vh;
-    /* margin-left: 0; */
+     margin-left: 0; 
     float:right;
     
-}
+} */
 .footer-about{
     width: 100%;
-    height: 10rem; 
-    bottom: 0rem;
-    background-color:yellow;
-    position: absolute;
+    height: 100%; 
+    
+    background-color:yellow;   
 }
 .btn{
     width: 14rem;
@@ -79,11 +71,14 @@ textarea{
     transition: 0.2s;
 }
 
-.hanging-minion-img{
+/* .hanging-minion-img{
     margin-top:10rem;
     width: 6rem;
     position: absolute;
-}
+} */
 .column{
     text-align: center;
+    width:100%;
+    margin: auto;
+    max-width: 600px;
 }
